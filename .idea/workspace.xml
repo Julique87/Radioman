@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8350761-395a-4c8b-8f4a-efc90858aa6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/jawaqa/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/jawaqa/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/jawaqa/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/jawaqa/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/jawaqa/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/jawaqa/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/user/Desktop/Netology/hw/Radioman/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Netology/hw/NEW/RadiomanN&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/user/Desktop/Netology/hw/Radioman/src/test/java",
+    "last_opened_file_path": "C:/Users/user/Desktop/Netology/hw/RadiomanNew"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn test" />
       <command value="mvn clean verify" />
+      <command value="mvn test" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RadioTest.shouldDecreaseRadioStation">

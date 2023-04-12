@@ -29,12 +29,16 @@ public class Radio {
     public void increaseRadioStation() {
         if (currentRadioStation < 9) {
             currentRadioStation = currentRadioStation + 1;
+        } else {
+            currentRadioStation = 0;
         }
     }
 
     public void decreaseRadioStation() {
         if (currentRadioStation > 0) {
             currentRadioStation = currentRadioStation - 1;
+        } else {
+            currentRadioStation = 9;
         }
     }
 

@@ -143,24 +143,24 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldNotIncreaseRadioStationAboveBorderHigh() {  // Не переключить радиостанцию на 1 вперед, выше верхнего граничого значения
+    public void shouldIncreaseRadioStationAboveBorderHighBackTo0() {  // Переключить радиостанцию на 1 вперед, выше верхнего граничого значения, вернув на 0
         Radio station = new Radio();
         station.setCurrentRadioStation(9);
 
         station.increaseRadioStation();
-        int expected = 9;
+        int expected = 0;
         int actual = station.getCurrentRadioStation();
 
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    public void shouldNotDecreaseRadioStationBelowBorderLow() {  // Не переключить радиостанцию на 1 назад, ниже нижнего граничного значение
+    public void shouldDecreaseRadioStationBelowBorderLowBackTo9() {  // Переключить радиостанцию на 1 назад, ниже нижнего граничного значение, вернув на 9
         Radio station = new Radio();
         station.setCurrentRadioStation(0);
 
         station.decreaseRadioStation();
-        int expected = 0;
+        int expected = 9;
         int actual = station.getCurrentRadioStation();
 
         Assertions.assertEquals(expected, actual);
